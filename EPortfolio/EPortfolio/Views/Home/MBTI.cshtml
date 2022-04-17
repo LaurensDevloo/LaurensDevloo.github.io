@@ -1,0 +1,25 @@
+﻿@model EPortfolio.Models.Domain.Person;
+
+@{
+    ViewData["Title"] = "MBTI";
+}
+
+<h1 class="text-dark">@ViewData["Title"]</h1>
+
+<p>
+    De Myers-Briggs Type Indicator is een psychometrisch instrument, dat wereldwijd wordt
+    ingezet ten behoeve van persoonlijke ontwikkeling, teamontwikkeling en
+    organisatieontwikkeling. De basis van het instrument is een vragenlijst met 88 items,
+    gevolgd door zelfonderzoek en interactieve coaching.
+    <a href="https://nl.wikipedia.org/wiki/Myers-Briggs_Type_Indicator">Meer informatie</a>
+
+    <h2>Type</h2>
+<p>Uit de vragenlijst is er gekomen dat ik een <strong>@Model.MBTI.GiveEverything()</strong> ben</p>
+<h2>Description</h2>
+@{string[] info = @Model.MBTI.GiveADescribtion().Split("\n");}
+      @foreach (string inf in info)
+       {
+            <p>@inf</p>
+       }
+
+</p>

@@ -1,0 +1,12 @@
+﻿@model EPortfolio.Models.Domain.Person;
+
+@{
+    ViewData["Title"] = "CV";
+}
+
+<h1 class="text-dark">@ViewData["Title"]</h1>
+
+<p>Zie hieronder mijn cv.</p>
+@{string src = Model.GetPathToCv();}
+
+<p><iframe src="@src" height="600px" width="100%"></iframe></p>

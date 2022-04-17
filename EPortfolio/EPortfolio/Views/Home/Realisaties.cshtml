@@ -1,0 +1,41 @@
+﻿@model EPortfolio.Models.Domain.Person;
+
+@{
+    ViewData["Title"] = "Gerealiseerde projecten";
+}
+
+<h1 class="text-dark">@ViewData["Title"]</h1>
+
+<p>Deze projecten geven een inzicht waar ik me reeds mee bezig heb gehouden.</p>
+
+@if (Model.Realistaties.Any())
+{
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th align="center">Titel</th>
+                <th align="center">Omschrijving</th>
+                <th align="center">Begin datum</th>
+                <th align="center">Eind datum</th>
+                <th align="center">Link naar website</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var proj in Model.Realistaties)
+            {
+                <tr>
+                    <td align="center">@proj.Name</td>
+                    <td align="center">@proj.Description</td>
+                    <td align="center">@proj.Begin.ToShortDateString()</td>
+                    <td align="center">@proj.End.ToShortDateString()</td>
+                    <td align="center"><a href="@proj.Link">@proj.Link</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h3 class="text-warning">Er zijn nog geen projecten</h3>
+}

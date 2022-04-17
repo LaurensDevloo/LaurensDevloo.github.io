@@ -1,0 +1,45 @@
+﻿@model EPortfolio.Models.Domain.Person;
+
+@{
+    ViewData["Title"] = "Talen";
+}
+
+<h1 class="text-dark">@ViewData["Title"]</h1>
+
+<p>
+    Hier kunt u alle talen vinden, die ik spreek, en het niveau waarop ik deze taal kan
+    spreken.
+</p>
+<p>
+    Hierbij is A het basis niveau wat een beginde spreker spreekt. B is het mid-level
+    en C is voor sprekers, die taal bijna even goed spreken als "normale" sprekers.
+    <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions">
+        Klik hier voor meer informatie
+    </a>"
+</p>
+
+@if (Model.Talen.Any())
+{
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th align="center" class="text-center">Naam</th>
+                <th align="center" class="text-center">Niveau</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var taal in Model.Talen)
+            {
+                <tr>
+                    <td align="center">@taal.Naam</td>
+                    <td align="center">@taal.Niveau</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h3 class="text-warning">Ik spreek blijkbaar geen talen</h3>
+}

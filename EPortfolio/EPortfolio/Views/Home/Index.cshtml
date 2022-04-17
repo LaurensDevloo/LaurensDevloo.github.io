@@ -1,0 +1,33 @@
+﻿@model EPortfolio.Models.Domain.Person; 
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-dark">
+    <h1>Laurens Devloo</h1>
+
+    <img src="@Model.GetPathToImage()" style="width: 15%; float:right"/>
+    <div class="half-page-left">
+        <p>
+            Ik ben @Model.FirstName @Model.Name en ben een backend developers met een grote interesse data engineering .<br />
+            Ik ben geboren op @Model.BirthDay.ToShortDateString() en ben dus @Model.BerekenLeeftijd() jaar oud. <br />
+            U kunt me altijd bereiken op <br />mijn vaste telefoon: <strong>@Model.TelephoneNumber</strong><br />
+            of mijn GSM: <strong>@Model.CellNumber</strong>.
+            Schriftelijk contact is mogelijk via ofwel email op <a href="mailto: @Model.Email">@Model.Email</a>
+            ofwel via op mijn thuisadres @Model.Address, @Model.Postcode @Model.City.
+        </p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2514.5039267814063!2d4.030175!3d50.932893!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd5028aa16e5%3A0x368d57400e5dc9ce!2sSint%20Jobstraat%20144%2C%209300%20Aalst!5e0!3m2!1snl!2sbe!4v1615837784036!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+    </div>
+    <div class="half-page-right">
+        <h2>Een beter inzicht in Laurens Devloo</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a asp-action="CV">Mijn CV</a></li>
+            <li class="list-group-item"><a asp-action="MBTI">MBTI: Wat voor persoon ben ik</a></li>
+            <li class="list-group-item"><a asp-action="Offman">Ofman</a></li>
+            <li class="list-group-item"><a asp-action="Realisaties">Gerealiseerde projecten</a></li>
+            <li class="list-group-item"><a asp-action="Talen">In de huidige wereld kan men niet zonder talen, hierbij de voorlopige lijst</a></li>
+            <li class="list-group-item"><a asp-action="ProgrammeerTalen">De programmertalen waarmee ik kan werken.</a></li>
+        </ul>
+    </div>
+</div>

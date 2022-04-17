@@ -1,0 +1,33 @@
+﻿@model EPortfolio.Models.Domain.Person;
+
+@{
+    ViewData["Title"] = "Ofman";
+}
+
+<h1 class="text-dark">@ViewData["Title"]</h1>
+
+<p>
+    Het Kernkwadrant of het Kwadrant van Ofman is een model om de eigenschappen te
+    beschrijven, die bij een persoon horen. Het model is opgesteld door de bedrijfskundige
+    Daniel Ofman. Het wordt gebruikt in organisatie-ontwikkelingstrajecten, in coaching,
+    bij conflictbemiddeling, voor persoonlijke ontwikkeling, in teambuildingssessies,
+    door onderwijsinstellingen van lagere scholen tot universiteiten in het kader
+    van zelfkennis, bij werving en selectie en door sollicitanten die een beeld van
+    zichzelf willen hebben.
+    <a href="https://www.leerwiki.nl/maatschappij/onderwijs/beroepsonderwijs/zelfontwikkeling/competenties/10972/wat-zijn-kernkwadranten/">Meer informatie</a>
+
+    <h2>Kernkwaliteit</h2>
+    <p>@Model.Offman.CoreQuality</p>
+    <h2>Valkuil</h2>
+    <p>@Model.Offman.Pitfall</p>
+    <h2>Uitdaging</h2>
+    <p>@Model.Offman.Challenge</p>
+    <h2>Allergie</h2>
+    <p>@Model.Offman.Allergy</p>
+    <h2>Woordje uitleg</h2>
+    <p>
+        Hierboven staat er dus eigenlijk dat ik iemand ben die altijd de beste manier zal
+        zoeken om dingen te vertellen in teamverband. Aan de andere kant wilt dit ook zeggen
+        dat ik als afstandelijk kan beschouwd worden en dat ik dus naar meer openheid moet
+        streven, maar deze directe aanpak persoonlijk minder aangenaam vindt.
+    </p>

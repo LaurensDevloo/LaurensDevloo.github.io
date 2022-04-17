@@ -1,0 +1,30 @@
+﻿@model EPortfolio.Models.Domain.Person; 
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-dark">
+    <h1>Welcome to my site</h1>
+
+    <p>Ik ben @Model.FirstName @Model.Name</p>
+    <p>Vaste lijn: @Model.TelephoneNumber</p>
+    @if (Model.CellNumber != null)
+    {
+       <p>of GSM: @Model.CellNumber</p>
+    }
+    <p>E-mailadress: <a href="mailto: @Model.Email">@Model.Email</a></p>
+    <p>Adres: @Model.Address, @Model.Postcode @Model.City</p>
+    <p>Of kijk op de kaart:</p>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2514.5039267814063!2d4.030175!3d50.932893!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bd5028aa16e5%3A0x368d57400e5dc9ce!2sSint%20Jobstraat%20144%2C%209300%20Aalst!5e0!3m2!1snl!2sbe!4v1615837784036!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+    <p>Birthday: @Model.BirthDay.Date</p>
+    <br />
+    <h2>Ronleiding voor een beter inzicht</h2>
+    <ul>
+        <li><a asp-action="CV">Mijn CV</a></li>
+        <li><a asp-action="MBTI">Bekijk hier mijn MBTI voor een idee van het soort persoon dat ik ben</a></li>
+        <li><a asp-action="Offman">Bekijk hier mijn Offman</a></li>
+        <li><a asp-action="Realisaties">Een korte bloemlezen van de realisatie, die ik reeds gehad heb</a></li>
+        <li><a asp-action="Talen">In de huidige wereld kan men niet zonder talen, hierbij de voorlopige lijst</a></li>
+    </ul>
+</div>

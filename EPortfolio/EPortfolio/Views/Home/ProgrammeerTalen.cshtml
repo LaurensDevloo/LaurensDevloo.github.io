@@ -1,0 +1,158 @@
+﻿@model EPortfolio.Models.Domain.Person;
+
+@{
+    ViewData["Title"] = "Programmeer talen";
+}
+
+<h1 class="text-dark">@ViewData["Title"]</h1>
+
+<p>
+    Als programmeur is het belangrijk dat je meerdere programmeer talen kent. Hieronder vindt
+    u de verschillende talen waarmee ik kan werken.
+</p>
+
+<div id="accordion">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h5 class="mb-0" align="center">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <img src="~/img/java.png" style="width: 10%;">
+                </button>
+            </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                Java is een objectgeoriënteerde programmeertaal. Java is een platformonafhankelijke
+                taal die qua syntaxis grotendeels gebaseerd is op de programmeertaal C++.
+                Java beschikt echter over een uitgebreidere klassenbibliotheek dan C++.
+                <a href="https://nl.wikipedia.org/wiki/Java_(programmeertaal)">Meer Informatie</a><br />
+                <strong>Beheersing</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                Aangezien Java de eerste programmeertaal is, die ik geleerd heb is mijn bekwaamheid over
+                de taal relatief goed. Ik heb dan ook in de taal reeds een eigen project geschreven namelijk
+                mijn management systeem.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h5 class="mb-0" align="center">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <img src="~/img/python.png" style=" width: 10%">
+                </button>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                Python is een programmeertaal die begin jaren 90 ontworpen en ontwikkeld werd door
+                Guido van Rossum, destijds verbonden aan het Centrum voor Wiskunde en Informatica
+                in Amsterdam.
+                <a href="https://nl.wikipedia.org/wiki/Python_(programmeertaal)">Meer Informatie</a><br />
+                <strong>Beheersing</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                Python vind ik persoonlijk een zeer gemakkelijke taal om snel een aantal scripts mee
+                te schrijven. De taal geeft een scala aan libraries, die kunnen helpen bij het oplossen
+                van bijna ieder probleem. Hiernaast is de taal ook ideaal bij het helpen bij data engineering,
+                een onderdeel waarvoor ik bijzondere interesse heb.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h5 class="mb-0" align="center">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <img src="~/img/cSharp.png" style="width:10%" />
+                </button>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+                C# is een programmeertaal ontwikkeld door Microsoft als deel van het
+                .NET-initiatief, en later geaccepteerd als standaard door ECMA en ISO.
+                <a href="https://nl.wikipedia.org/wiki/C%E2%99%AF">Meer Informatie</a><br />
+                <strong>Beheersing</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                C# is een taal waarmee ik in het begin meer problemen heb gehad, maar na
+                verloop van tijd met oefening en een effectief project in de taal voel ik me
+                al meer thuis in deze taal.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingFour">
+            <h5 class="mb-0" align="center">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <img src="~/img/htmlcss.png" style="width:50%" />
+                </button>
+            </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+                HTML en CSS zijn de talen waarin het internet is geschreven. HTML is de taal van de effectieve
+                webpagina's terwijl CSS de taal is waarmee de HTML stijl krijgt.
+                <a href="https://nl.wikipedia.org/wiki/HyperText_Markup_Language">Meer Informatie</a><br />
+                <strong>Beheersing</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                HTML en CSS zijn talen die iedere programmeur zou moeten kennen aangezien
+                de meeste programmeurs op een bepaald moment een website zal moeten maken.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingFive">
+            <h5 class="mb-0" align="center">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <img src="~/img/sap.png" style="width:50%" />
+                </button>
+            </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+                mySAP ERP is een geïntegreerd enterprise resource planning pakket voor grote en
+                middelgrote bedrijven.
+                <a href="https://www.sap.com/belgie/index.html">Meer Informatie</a><br />
+                <strong>Beheersing</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                Wegens het nut van SAP in de business wereld is een basis kennis van deze
+                programmeertaal zeker niet misplaats vind ik persoonlijk.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingSix">
+            <h5 class="mb-0" align="center">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <img src="~/img/bash.png" style="width:50%" />
+                </button>
+            </h5>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+                Bash, wat staat voor Bourne Again Shell, is een shell voor
+                POSIX-systemen en wordt onder andere gebruikt op Linux en macOS.
+                Het is geschreven door GNU en is sterk geïnspireerd op sh, he
+                opdrachtregelprogramma van Unix.
+                <a href="https://nl.wikipedia.org/wiki/Bash">Meer Informatie</a><br />
+                <strong>Beheersing</strong>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                Zowel Bash als Powershell zijn programmeertalen, die vooral hun nut hebben
+                indien men zaken snel, eenvoudig en automatisch wilt doen. Ik heb dan ook een
+                aantal zelfgeschreve scripts op mijn computer staan zodat zaken makkelijker 
+                verlopen.
+            </div>
+        </div>
+    </div>
+</div>
