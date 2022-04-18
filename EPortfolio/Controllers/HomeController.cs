@@ -63,6 +63,11 @@ namespace EPortfolio.Controllers
             return View(this.Person);
         }
 
+        public IActionResult WerkErvaring()
+        {
+            return View(this.Person);
+        }
+
         public IActionResult ProgrammeerTalen ()
         {
             return View();
@@ -103,6 +108,21 @@ namespace EPortfolio.Controllers
             this.Person.Realistaties.Add (this.Realisatie);
             this.Person.Realistaties.Add (realistatie1);
             this.Person.Realistaties.Add(realisatie2);
+
+            Werkervaring we = new Werkervaring("09/2020",
+                                               "12/2020",
+                                               "CodeFever",
+                                               "CodeFever is een organisatie, die kinderen in het digitale tijdperk wilt helpen. Dit door lesen te geven.");
+            Werkervaring we1 = new Werkervaring("08/09/2021",
+                                                "24/09/2021",
+                                                "Belcolade(Puratos)",
+                                                "Belcolade had tot op dit moment geen uniform file management system. Dit heb ik geprogrammeerd in VBA zoanig dat er structuur en versioning mogelijk werden.");
+
+            we.Link = "https://www.codefever.be/nl";
+            we1.Link = "https://www.belcolade.com/";
+
+            this.Person.addWerkErvaring(we);
+            this.Person.addWerkErvaring(we1);
         }
 
         private void PrepareMBTI ()

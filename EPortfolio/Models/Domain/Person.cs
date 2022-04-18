@@ -20,6 +20,7 @@ namespace EPortfolio.Models.Domain
 
         public List <Realisatie> Realistaties { get; set; }
         public List <Taal> Talen { get; set; }
+        public List <Werkervaring> Werkervarings { get; set; }
 
         protected Person () {}
 
@@ -42,6 +43,7 @@ namespace EPortfolio.Models.Domain
 
             this.Realistaties = new List <Realisatie> ();
             this.Talen = new List <Taal> ();
+            this.Werkervarings = new List <Werkervaring> ();
         }
 
         public void AddRealisatie (Realisatie realisatie)
@@ -62,6 +64,16 @@ namespace EPortfolio.Models.Domain
         public void RemoveTaal (Taal taal)
         {
             this.Talen.Remove(taal);
+        }
+
+        public void addWerkErvaring (Werkervaring werkervaring)
+        {
+            this.Werkervarings.Add(werkervaring);
+        }
+
+        public void removeWerkErvaring(Werkervaring werkervaring)
+        {
+            this.Werkervarings.Remove(werkervaring);
         }
 
         public string GetPathToImage ()

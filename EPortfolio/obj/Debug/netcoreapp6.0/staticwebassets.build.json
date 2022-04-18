@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ePZLRogKeeugcNpMQZB3sVo29G9WmpM2d/JTTpqEl9Q=",
+  "Hash": "X2iK8/TjHgG/wY9E0Ppof/2Vo8PyW9SbXSlLcsk/Wsc=",
   "Source": "EPortfolio",
   "BasePath": "_content/EPortfolio",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\sap.png"
+    },
+    {
+      "Identity": "C:\\Users\\laure\\Documents\\Git\\LaurensDevloo.github.io\\EPortfolio\\wwwroot\\img\\solidity.png",
+      "SourceId": "EPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\laure\\Documents\\Git\\LaurensDevloo.github.io\\EPortfolio\\wwwroot\\",
+      "BasePath": "_content/EPortfolio",
+      "RelativePath": "img/solidity.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\solidity.png"
     },
     {
       "Identity": "C:\\Users\\laure\\Documents\\Git\\LaurensDevloo.github.io\\EPortfolio\\wwwroot\\js\\site.js",
