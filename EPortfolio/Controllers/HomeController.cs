@@ -81,14 +81,18 @@ namespace EPortfolio.Controllers
                                       DateTime.Parse("09/11/2000"), 9300);
             this.IBMTI = new MBTI ();
             this._offman = new Offman ();
-            this.Realisatie = new Realisatie (DateTime.ParseExact("15/07/2020", "dd/mm/yyyy", CultureInfo.InvariantCulture),
-                                              DateTime.Parse("31/08/2020"),
+            this.Realisatie = new Realisatie ("15/07/2020",
+                                              "31/08/2020",
                                               "Kledij stock managemnt system",
                                               "Een systeem dat al mijn kledij trackt zodat dit gemakkelijker kan worden opgevolgd.");
-            Realisatie realistatie1 = new Realisatie (DateTime.Parse("08/03/2021"),
-                                                      DateTime.Parse("21/05/2021"),
+            Realisatie realistatie1 = new Realisatie ("08/03/2021",
+                                                      "21/05/2021",
                                                       "Eportfolio",
                                                       "Deze website.");
+            Realisatie realisatie2 = new Realisatie ("08/09/2021",
+                                                     "24/09/2021",
+                                                     "File Management System voor Puratos",
+                                                     "Een File Management System dat orde en versioning brengt in een ongeordend folder structuur");
             realistatie1.Link = "http://www.laurensdevloo.be";
             this.Person.MBTI = this.IBMTI;
             this.Person.Offman = this._offman;
@@ -98,6 +102,7 @@ namespace EPortfolio.Controllers
 
             this.Person.Realistaties.Add (this.Realisatie);
             this.Person.Realistaties.Add (realistatie1);
+            this.Person.Realistaties.Add(realisatie2);
         }
 
         private void PrepareMBTI ()
