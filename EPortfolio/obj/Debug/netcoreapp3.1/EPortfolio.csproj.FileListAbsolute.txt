@@ -396,3 +396,14 @@ C:\Users\laure\Documents\Git\ITalentSite\EPortfolio\EPortfolio\obj\Debug\netcore
 C:\Users\laure\Documents\Git\ITalentSite\EPortfolio\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.dll
 C:\Users\laure\Documents\Git\ITalentSite\EPortfolio\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.pdb
 C:\Users\laure\Documents\Git\ITalentSite\EPortfolio\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.genruntimeconfig.cache
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.csproj.AssemblyReference.cache
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.AssemblyInfoInputs.cache
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.AssemblyInfo.cs
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.csproj.CoreCompileInputs.cache
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.RazorAssemblyInfo.cache
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.RazorAssemblyInfo.cs
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.dll
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp3.1\EPortfolio.pdb
