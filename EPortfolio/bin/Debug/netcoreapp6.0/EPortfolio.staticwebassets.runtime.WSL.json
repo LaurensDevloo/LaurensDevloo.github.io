@@ -98,6 +98,14 @@
               "SubPath": "img/sap.png"
             },
             "Patterns": null
+          },
+          "solidity.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "img/solidity.png"
+            },
+            "Patterns": null
           }
         },
         "Asset": null,
