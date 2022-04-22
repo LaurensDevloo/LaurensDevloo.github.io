@@ -383,3 +383,4 @@ C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcor
 C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp6.0\ref\EPortfolio.dll
 C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp6.0\EPortfolio.pdb
 C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp6.0\EPortfolio.genruntimeconfig.cache
+C:\Users\laure\Documents\Git\LaurensDevloo.github.io\EPortfolio\obj\Debug\netcoreapp6.0\EPortfolio.csproj.AssemblyReference.cache
