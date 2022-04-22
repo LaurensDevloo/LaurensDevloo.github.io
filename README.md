@@ -1,3 +1,5 @@
 # LaurensDevloo.github.io
 
-dit is een test om te kijken wat er gebeurd
+Deploy naar website door te publishen a.d.h.v. ftps en hier alles in te vullen hierna is het mogelijk de settings aan te passen en hier opnieuw alles goed te zetten. 
+
+zie ![setting](./hwto/settings_connections.png) & ![connection](./hwto/settings.png)
