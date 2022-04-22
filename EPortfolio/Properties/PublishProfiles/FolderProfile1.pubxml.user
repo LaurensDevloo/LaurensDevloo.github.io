@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword />
     <_PublishTargetUrl>ftp://windowsftp.webhosting.be/www</_PublishTargetUrl>
-    <History>True|2022-04-22T18:22:11.4132669Z;</History>
+    <History>True|2022-04-22T20:09:20.9003699Z;True|2022-04-22T20:22:11.4132669+02:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
@@ -29,19 +29,19 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/14/2021 20:30:42</publishTime>
     </File>
     <File Include="EPortfolio.deps.json">
-      <publishTime>04/22/2022 20:19:06</publishTime>
+      <publishTime>04/22/2022 22:06:13</publishTime>
     </File>
     <File Include="EPortfolio.dll">
-      <publishTime>04/22/2022 20:18:51</publishTime>
+      <publishTime>04/22/2022 22:05:57</publishTime>
     </File>
     <File Include="EPortfolio.exe">
-      <publishTime>04/22/2022 20:18:51</publishTime>
+      <publishTime>04/22/2022 22:05:58</publishTime>
     </File>
     <File Include="EPortfolio.pdb">
-      <publishTime>04/22/2022 20:18:51</publishTime>
+      <publishTime>04/22/2022 22:05:57</publishTime>
     </File>
     <File Include="EPortfolio.runtimeconfig.json">
-      <publishTime>04/22/2022 20:18:52</publishTime>
+      <publishTime>04/22/2022 22:05:58</publishTime>
     </File>
     <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>10/14/2021 20:42:34</publishTime>
@@ -1097,7 +1097,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/14/2021 20:30:42</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>04/22/2022 20:19:06</publishTime>
+      <publishTime>04/22/2022 22:06:14</publishTime>
     </File>
     <File Include="wwwroot/bestanden/Laurens_Devloo.pdf">
       <publishTime>03/21/2022 19:29:54</publishTime>
