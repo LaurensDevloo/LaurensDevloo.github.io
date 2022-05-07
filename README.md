@@ -3,12 +3,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Alemene informatio
+        Alemene Information
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <img src="Eportfolio/wwwroot/img/Laurens_Devloo.png" style="width: 15%; float:right"/>
+        <img src="./EPortfolio/wwwroot/img/Laurens_Devloo.png" style="width: 15%; float:right"/>
         <div class="half-page-left">
         <p>
             Ik ben @Model.FirstName @Model.Name en ben een backend developers met een grote interesse data engineering .<br />
